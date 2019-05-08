@@ -2,7 +2,7 @@ class MusicImporter
   attr_accessor :file 
   
   def initialize(file)
-    @file = file
+    @path = file
   end
   
 end
