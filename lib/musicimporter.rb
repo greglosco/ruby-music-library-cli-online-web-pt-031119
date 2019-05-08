@@ -6,7 +6,7 @@ class MusicImporter
   end
   
   def files
-    @files ||= Dir
+    @files ||= Dir.glob
   end
   
 end
