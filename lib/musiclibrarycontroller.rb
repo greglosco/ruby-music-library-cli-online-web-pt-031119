@@ -46,6 +46,8 @@ class MusicLibraryController
       
       case input
       when "play song"
+        play_song
+      end
     
     
     end
