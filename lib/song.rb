@@ -56,9 +56,7 @@ class Song
   end
   
   def self.create_from_filename(file)
-    file = file.gsub(".mp3", "")
-    artist, song, genre = file.split(" - ") #more than one variable assigns all to each element
-    new_song = Song.create(song)
+    self.new_from_filename(file)
   end
   
   
