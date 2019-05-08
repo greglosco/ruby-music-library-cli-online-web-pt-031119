@@ -28,6 +28,11 @@ class MusicLibraryController
       when "list artists"
         list_artists
       end
+      
+      case input
+      when "list genres"
+        list_genres
+      end
     
     
     end
