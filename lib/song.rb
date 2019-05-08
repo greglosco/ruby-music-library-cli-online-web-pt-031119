@@ -51,7 +51,7 @@ class Song
     artist, song, genre = file.split(" - ") #more than one variable assigns all to each element
     song_artist = Artist.find_or_create_by_name(artist)
     genre = genre.gsub(".mp3", "")
-    song.genre.Genre.find_or_create_by_name(genre)
+    song.genre = Genre.find_or_create_by_name(genre)
   end
   
 end
