@@ -1,7 +1,7 @@
 require 'pry'
 
 class Artist 
-  extend
+  extend Conerns::Findable
   attr_accessor :name, :songs
   
   @@all = []
